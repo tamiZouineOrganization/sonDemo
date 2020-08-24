@@ -17,10 +17,16 @@ class ViewController: UIViewController {
     }
     
     func testSonarCloudBugDetection()->Bool{
-        for i in 0...4{
-            print(i)
+        for index in 0...4{
+            print(index)
         }
         return true
+    }
+    
+      static var blueButtonText: UIColor {
+    
+        return UIColor(red: 127.0/255.0, green: 181.0/255.0, blue: 1255.0/255.0, alpha: 1.0)
+        
     }
 
 
