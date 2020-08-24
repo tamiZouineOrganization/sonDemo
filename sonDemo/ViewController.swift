@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        testSonarCloudBugDetection()
+    }
+    
+    func testSonarCloudBugDetection()->Bool{
+        return true
     }
 
 
