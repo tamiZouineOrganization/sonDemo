@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     }
     
     func testSonarCloudBugDetection()->Bool{
+        for i in 0...4{
+            print(i)
+        }
         return true
     }
 
