@@ -1,0 +1,20 @@
+disabled_rules: # rule identifiers to exclude from running
+- force_cast
+#- force_unwrappingitespace
+#- type_name
+- force_try
+#- identifier_name
+- large_tuple
+- function_body_length
+#- body_length
+- type_body_length
+
+cyclomatic_complexity: 30
+
+
+file_length:
+ warning: 500
+ error: 2000
+
+excluded:
+ - ".*/stibits-ios/StibitsTests/*"
