@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         case "SonarQube":
             print(2)
         default:
-            <#code#>
+            print(0)
         }
         
         
