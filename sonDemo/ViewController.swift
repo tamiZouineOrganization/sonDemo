@@ -35,6 +35,8 @@ class ViewController: UIViewController {
             print(1)
         case "SonarQube":
             print(2)
+        case "SonnarScanner":
+            print(3)
         default:
             print(0)
         }
