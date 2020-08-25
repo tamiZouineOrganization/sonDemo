@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var Uppercasevalue: String? = "SonarCloud"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -29,6 +30,15 @@ class ViewController: UIViewController {
         else {
             print(1)
         }
+        switch Uppercasevalue {
+        case "SonarCloud":
+            print(1)
+        case "SonarQube":
+            print(2)
+        default:
+            <#code#>
+        }
+        
         
         return true
     }
@@ -38,6 +48,5 @@ class ViewController: UIViewController {
     
     func testOtherFunc(){
         testSonarCloudBugsDetection()
-
     }
 }
