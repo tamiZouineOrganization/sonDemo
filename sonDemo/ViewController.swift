@@ -51,6 +51,7 @@ class ViewController: UIViewController {
     func testOtherFunc(){
         print("this is test to compare PR")
         print("this is test to compare PR")
+        print("this is test to compare PR")
         testSonarCloudBugsDetection()
     }
 }
