@@ -21,6 +21,9 @@ class ViewController: UIViewController {
             print(index)
             for identifier in 0...9 {
                 print(identifier)
+                if Uppercasevalue == "SonarCloud"{
+                    print("true")
+                }
             }
         }
         
@@ -41,7 +44,6 @@ class ViewController: UIViewController {
             print(0)
         }
         
-        
         return true
     }
       static var blueButtonText: UIColor {
@@ -50,5 +52,6 @@ class ViewController: UIViewController {
     
     func testOtherFunc(){
         testSonarCloudBugsDetection()
+        print("Compare")
     }
 }
