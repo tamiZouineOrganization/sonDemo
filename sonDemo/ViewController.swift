@@ -18,10 +18,11 @@ class ViewController: UIViewController {
     func testSonarCloudBugsDetection() -> Bool {
         for index in 0...4 {
             print(index)
+            for identifier in 0...9 {
+                print(identifier)
+            }
         }
-        for identifier in 0...9 {
-            print(identifier)
-        }
+        
         if 1 == 1 {
             print(1)
         }
