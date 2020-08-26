@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             for identifier in 0...9 {
                 print(identifier)
                 if Uppercasevalue == "SonarCloud"{
-                    print("true")
+                    print("true  ")
                 }
             }
         }
