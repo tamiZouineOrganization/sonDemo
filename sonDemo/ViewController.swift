@@ -28,6 +28,12 @@ class ViewController: UIViewController {
         }
         
         if 1 == 1 {
+            print(11)
+        }
+        else {
+            print(11)
+        }
+        if 1 == 1 {
             print(1)
         }
         else {
