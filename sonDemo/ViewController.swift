@@ -21,17 +21,16 @@ class ViewController: UIViewController {
             print(index)
             for identifier in 0...9 {
                 print(identifier)
+                if Uppercasevalue == "SonarCloud"{
+                    print("true")
+                }
             }
         }
         
         if 1 == 1 {
-            print(1)
-            print(1)
+
         }
-        else {
-            print(1)
-            print(1)
-        }
+       
         switch Uppercasevalue {
         case "SonarCloud":
             print(1)
@@ -41,8 +40,8 @@ class ViewController: UIViewController {
             print(3)
         default:
             print(0)
+
         }
-        
         
         return true
     }
@@ -54,5 +53,6 @@ class ViewController: UIViewController {
         print("this is test to compare PR")
         print("this is test to compare PR")
         testSonarCloudBugsDetection()
+        print("Compare")
     }
 }

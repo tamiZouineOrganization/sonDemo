@@ -15,6 +15,7 @@
 		F266E5FD24F3BDA000C4D54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F266E5FB24F3BDA000C4D54A /* LaunchScreen.storyboard */; };
 		F266E60824F3BDA000C4D54A /* sonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E60724F3BDA000C4D54A /* sonDemoTests.swift */; };
 		F266E61324F3BDA000C4D54A /* sonDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E61224F3BDA000C4D54A /* sonDemoUITests.swift */; };
+		F266E62224F551BD00C4D54A /* NewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E62124F551BD00C4D54A /* NewFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F266E60E24F3BDA000C4D54A /* sonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F266E61224F3BDA000C4D54A /* sonDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonDemoUITests.swift; sourceTree = "<group>"; };
 		F266E61424F3BDA000C4D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F266E62124F551BD00C4D54A /* NewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F266E5F924F3BDA000C4D54A /* Assets.xcassets */,
 				F266E5FB24F3BDA000C4D54A /* LaunchScreen.storyboard */,
 				F266E5FE24F3BDA000C4D54A /* Info.plist */,
+				F266E62124F551BD00C4D54A /* NewFeature.swift */,
 			);
 			path = sonDemo;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F266E5F524F3BD9F00C4D54A /* ViewController.swift in Sources */,
+				F266E62224F551BD00C4D54A /* NewFeature.swift in Sources */,
 				F266E5F124F3BD9F00C4D54A /* AppDelegate.swift in Sources */,
 				F266E5F324F3BD9F00C4D54A /* SceneDelegate.swift in Sources */,
 			);
