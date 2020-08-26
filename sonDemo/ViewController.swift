@@ -30,6 +30,12 @@ class ViewController: UIViewController {
         else {
             print(1)
         }
+        if 1 == 1 {
+                   print(1)
+               }
+               else {
+                   print(1)
+               }
         switch Uppercasevalue {
         case "SonarCloud":
             print(1)
