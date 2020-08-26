@@ -28,10 +28,7 @@ class ViewController: UIViewController {
         }
         
         if 1 == 1 {
-            print(11)
-        }
-        else {
-            print(11)
+
         }
        
         switch Uppercasevalue {
@@ -53,6 +50,7 @@ class ViewController: UIViewController {
     }
     
     func testOtherFunc(){
+        print("this is test to compare PR")
         print("this is test to compare PR")
         testSonarCloudBugsDetection()
         print("Compare")
