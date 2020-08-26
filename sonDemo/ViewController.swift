@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             print(3)
         default:
             print(0)
-            print("develop branch change")
+
         }
         
         return true
@@ -52,6 +52,7 @@ class ViewController: UIViewController {
     }
     
     func testOtherFunc(){
+        print("this is test to compare PR")
         testSonarCloudBugsDetection()
         print("Compare")
     }
