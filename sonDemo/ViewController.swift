@@ -42,8 +42,7 @@ class ViewController: UIViewController {
             print(3)
         default:
             print(0)
-            print(0)
-            
+
         }
         
         return true
