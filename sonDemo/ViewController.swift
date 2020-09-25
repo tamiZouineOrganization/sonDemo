@@ -43,6 +43,8 @@ class ViewController: UIViewController {
             print(2)
         case "SonnarScanner":
             print(3)
+        case "SonnarScanner":
+            print(3)
         default:
             print(0)
 
