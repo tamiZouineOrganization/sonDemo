@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         testSonarCloudBugsDetection()
+        print("this is for new brach pipe trigger")
     }
     func testSonarCloudBugsDetection() -> Bool {
         for index in 0...4 {
